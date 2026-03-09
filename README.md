@@ -236,9 +236,9 @@ If you use this tool in your research, please cite as:
 
 The conceptual foundation of this tool was inspired by the protocol and supplementary script published by **Chang Liu and colleagues**:
 
-> Chang Liu et al. *Generating Sequencing Depth and Coverage Map for Organelle Genomes.* protocols.io.
+> Chang Liu et al. (2023) *Generating Sequencing Depth and Coverage Map for Organelle Genomes.* protocols.io.
 
-Bear first encountered this work at the **MAKDA Workshop 2024**. While the scripts in this repository were written independently and differ substantially in implementation, the original protocol provided the initial motivation for developing a reproducible, command-line-based depth visualisation workflow.
+I first encountered this work at the **MAKDA Workshop 2024**. While the scripts in this repository were written independently and differ substantially in implementation, the original protocol provided the initial motivation for developing a reproducible, command-line-based depth visualisation workflow.
 
 ---
 
