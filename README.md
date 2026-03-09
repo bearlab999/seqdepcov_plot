@@ -2,7 +2,7 @@
 
 **seqdepcov_plot** is a lightweight Python utility for visualising per-base sequencing depth and coverage from short-read alignments mapped to a reference genome.
 
-The tool is designed for **genome-wide inspection of sequencing depth**, and is particularly suitable for chloroplast genomes, mitochondrial genomes, and small bacterial genomes. It produces **publication-ready figures** (PDF, SVG, PNG) with editable text and consistent layout across all output formats.
+The tool is designed for **genome-wide inspection of sequencing depth**, and is particularly suitable for chloroplast genomes and mitochondrial genomes. It produces **publication-ready figures** (PDF, SVG, PNG) with editable text and consistent layout across all output formats.
 
 Current stable version: **v0.1.5**
 
@@ -195,6 +195,7 @@ This tool therefore prioritises **reproducibility, transparency, and community-s
 
 ## Known Limitations
 
+_This tool is optimised for organellar genomes (cpDNA, mtDNA). For larger genomes (> ~500 kb), performance may degrade and a windowed approach is recommended.
 - Sequencing depth is calculated on a **per-read basis** using `samtools depth`. Fragment-level depth (collapsed paired-end reads) is not applied.
 - For paired-end short-read data, both mates contribute independently to coverage if they overlap the same genomic position. This may result in higher depth values compared to fragment-aware GUI tools.
 - For long-read sequencing data (e.g. Oxford Nanopore or PacBio), low per-base depth values may reflect the intrinsic characteristics of long reads rather than insufficient sequencing coverage.
