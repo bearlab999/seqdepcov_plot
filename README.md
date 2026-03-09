@@ -195,7 +195,7 @@ This tool therefore prioritises **reproducibility, transparency, and community-s
 
 ## Known Limitations
 
-_This tool is optimised for organellar genomes (cpDNA, mtDNA). For larger genomes (> ~500 kb), performance may degrade and a windowed approach is recommended.
+- This tool is optimised for organellar genomes (cpDNA, mtDNA). For larger genomes (> ~500 kb), performance may degrade and a windowed approach is recommended.
 - Sequencing depth is calculated on a **per-read basis** using `samtools depth`. Fragment-level depth (collapsed paired-end reads) is not applied.
 - For paired-end short-read data, both mates contribute independently to coverage if they overlap the same genomic position. This may result in higher depth values compared to fragment-aware GUI tools.
 - For long-read sequencing data (e.g. Oxford Nanopore or PacBio), low per-base depth values may reflect the intrinsic characteristics of long reads rather than insufficient sequencing coverage.
