@@ -232,7 +232,7 @@ If you use this tool in your research, please cite as:
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 The conceptual foundation of this tool was inspired by the protocol and supplementary script published by **Chang Liu and colleagues**:
 
@@ -242,7 +242,7 @@ Bear first encountered this work at the **MAKDA Workshop 2024**. While the scrip
 
 ---
 
-## ⚖️ License
+## License
 
 This project is released under the **MIT License**.
 You are free to use, modify, and redistribute it with appropriate attribution.
@@ -250,7 +250,7 @@ See [LICENSE](LICENSE) for full details.
 
 ---
 
-## 👤 Author
+## Author
 
 **Bao-Ngoc Mach (Vanness)**
 
